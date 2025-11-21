@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi Chauhan | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">KC.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content hidden">
+            <span class="tagline">Hello, I'm</span>
+            <h1>Khushi Chauhan</h1>
+            <h2>Full Stack Developer <span class="highlight">(MERN + Python)</span></h2>
+            <p>I build scalable web applications and responsive interfaces. Specialized in MongoDB, Express, React, and Node.js.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="https://github.com/kcdoescode" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text hidden">
+                    <p>I am a motivated Full Stack Developer based in Jamnagar, Gujarat. With a strong foundation in the MERN stack and Python, I translate UI/UX wireframes into responsive code and engineer robust RESTful APIs.</p>
+                    <br>
+                    <p>I have 6+ months of practical freelance experience where I've built custom inventory solutions and handled the complete SDLC from concept to deployment.</p>
+                    
+                    <div class="experience-box">
+                        <h3><i class="fas fa-briefcase"></i> Experience</h3>
+                        <div class="job">
+                            <h4>Freelance Full Stack Developer</h4>
+                            <span>2024 - Present</span>
+                            <p>• Built <strong>StockSync Pro</strong> (Inventory Management) reducing manual entry by 40%.<br>
+                            • Developed secure REST APIs and integrated Stripe/Firebase.<br>
+                            • Deployed apps on Vercel and Render.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-card hidden">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="edu-item">
+                        <h4>Bachelor of Computer Applications</h4>
+                        <p>Amity University | CGPA: 8.60</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Diploma in Computer Engineering</h4>
+                        <p>Gov. Polytechnic Jamnagar | CGPA: 8.40</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper hidden">
+                
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="tags">
+                        <span>React.js</span>
+                        <span>Redux</span>
+                        <span>Tailwind CSS</span>
+                        <span>Bootstrap</span>
+                        <span>HTML5 / CSS3</span>
+                        <span>JavaScript (ES6+)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Python</span>
+                        <span>REST APIs</span>
+                        <span>Socket.io</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Database & Tools</h3>
+                    <div class="tags">
+                        <span>MongoDB</span>
+                        <span>MySQL / PostgreSQL</span>
+                        <span>Git & GitHub</span>
+                        <span>Postman</span>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card hidden">
+                    <div class="card-header">
+                        <i class="fas fa-comments"></i>
+                        <div class="links">
+                            <a href="https://github.com/kcdoescode/social-app" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://social-app-two-sigma.vercel.app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>Buzzly - Social Media</h3>
+                    <p class="tech-stack">MERN Stack • Redux • JWT</p>
+                    <p>A scalable platform handling concurrent user requests, post creation, and feed generation. Features robust security with Bcrypt and complex data modeling in MongoDB.</p>
+                </div>
+
+                <div class="project-card hidden">
+                    <div class="card-header">
+                        <i class="fas fa-comment-dots"></i>
+                        <div class="links">
+                            <a href="https://github.com/kcdoescode/chat-application" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://chat-application-henna-five.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>Real-Time Chat App</h3>
+                    <p class="tech-stack">Socket.io • MERN • Tailwind</p>
+                    <p>Instant messaging platform with bi-directional communication. Features active status indicators, real-time updates, and optimized WebSocket connections.</p>
+                </div>
+
+                <div class="project-card hidden">
+                    <div class="card-header">
+                        <i class="fas fa-newspaper"></i>
+                        <div class="links">
+                            <a href="https://newsnestbykhushi-beta.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3>NewsNest</h3>
+                    <p class="tech-stack">JavaScript • GNews API</p>
+                    <p>Real-time news aggregator fetching live articles via API with a clean, modern UI for reading the latest updates.</p>
+                </div>
+
+            </div>
+
+            <div class="mini-projects hidden">
+                <h3>Other Creative Projects</h3>
+                <ul>
+                    <li>
+                        <a href="https://cutulator-calculator.vercel.app/" target="_blank">
+                            <strong>Kawai Calculator:</strong> Aesthetic, responsive calculator with custom themes.
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://codecanvas-diaries.vercel.app/" target="_blank">
+                            <strong>CodeCanvas:</strong> Live code editor for HTML, CSS, and JS execution.
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-darker">
+        <div class="container contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-sub">Currently open to full-time opportunities.</p>
+            <div class="contact-links hidden">
+                <a href="mailto:chauhankm81@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>chauhankm81@gmail.com</span>
+                </a>
+                <a href="https://github.com/kcdoescode" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>kcdoescode</span>
+                </a>
+                <a href="#" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>Khushi Chauhan</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Khushi Chauhan. Built with HTML, CSS, & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
